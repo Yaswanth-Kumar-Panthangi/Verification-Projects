@@ -1,0 +1,41 @@
+# Ignore simulation build directories
+work/
+transcript
+vsim.wlf
+*.wlf
+*.log
+*.jou
+*.pb
+*.rpt
+*.str
+*.key
+*.tmp
+*.db
+*.svh.d
+
+# Ignore waveform files
+*.vcd
+*.vpd
+*.fst
+*.wdb
+
+# Ignore compiled libraries
+modelsim.ini
+questa.ini
+*.ini
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore backup and swap files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo

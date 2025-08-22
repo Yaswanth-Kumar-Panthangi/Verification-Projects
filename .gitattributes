@@ -1,0 +1,19 @@
+# Treat all SystemVerilog & Verilog files as text with LF endings
+*.sv text eol=lf
+*.svh text eol=lf
+*.v text eol=lf
+*.vh text eol=lf
+
+# Python scripts
+*.py text eol=lf
+
+# CSV and text data files
+*.csv text eol=lf
+*.txt text eol=lf
+
+# Mark binary files
+*.vcd binary
+*.wlf binary
+*.fst binary
+*.png binary
+*.jpg binary
