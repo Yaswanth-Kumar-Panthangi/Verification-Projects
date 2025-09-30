@@ -1,0 +1,263 @@
+Group : bridge_pkg::sb::ahb
+
+===============================================================================
+Group : bridge_pkg::sb::ahb
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+  0.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN15/KUReddy/AHB2APB_Bridge/sim/../tb/sb.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   bridge_pkg::sb::ahb
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 11       11        0       0.00    
+Crosses   48       48        0       0.00    
+
+
+Variables for Group  bridge_pkg::sb::ahb
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+HADDR    4        4         0       0.00    100  1      1        0                    
+HSIZE    3        3         0       0.00    100  1      1        0                    
+HWRITE   2        2         0       0.00    100  1      1        0                    
+HTRANS   2        2         0       0.00    100  1      1        0                    
+
+
+Crosses for Group  bridge_pkg::sb::ahb
+
+
+CROSS EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+AHP   48       48        0       0.00    100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable HADDR
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        4         0       0.00    
+
+
+User Defined Bins for HADDR
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+slave4 0     1        1      
+slave3 0     1        1      
+slave2 0     1        1      
+slave1 0     1        1      
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable HSIZE
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        3         0       0.00    
+
+
+User Defined Bins for HSIZE
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+four_byte 0     1        1      
+two_byte  0     1        1      
+one_byte  0     1        1      
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable HWRITE
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        2         0       0.00    
+
+
+User Defined Bins for HWRITE
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+write1 0     1        1      
+write0 0     1        1      
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable HTRANS
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        2         0       0.00    
+
+
+User Defined Bins for HTRANS
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+seq  0     1        1      
+nseq 0     1        1      
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross AHP
+
+
+Samples crossed: HADDR HSIZE HWRITE HTRANS
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 48       48        0       0.00    48      
+
+
+Automatically Generated Cross Bins for AHP
+
+
+Uncovered bins
+
+HADDR HSIZE HWRITE HTRANS COUNT AT LEAST NUMBER 
+*     *     *      *      --    --       48     
+
+
+Group : bridge_pkg::sb::apb
+
+===============================================================================
+Group : bridge_pkg::sb::apb
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+  0.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN15/KUReddy/AHB2APB_Bridge/sim/../tb/sb.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   bridge_pkg::sb::apb
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       10        0       0.00    
+Crosses   32       32        0       0.00    
+
+
+Variables for Group  bridge_pkg::sb::apb
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+PSELX    4        4         0       0.00    100  1      1        0                    
+PWRITE   2        2         0       0.00    100  1      1        0                    
+PADDR    4        4         0       0.00    100  1      1        0                    
+
+
+Crosses for Group  bridge_pkg::sb::apb
+
+
+CROSS EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+APB   32       32        0       0.00    100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PSELX
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        4         0       0.00    
+
+
+User Defined Bins for PSELX
+
+
+Uncovered bins
+
+NAME  COUNT AT LEAST NUMBER 
+eight 0     1        1      
+four  0     1        1      
+two   0     1        1      
+one   0     1        1      
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PWRITE
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        2         0       0.00    
+
+
+User Defined Bins for PWRITE
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+writep1 0     1        1      
+writep0 0     1        1      
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PADDR
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        4         0       0.00    
+
+
+User Defined Bins for PADDR
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+master4 0     1        1      
+master3 0     1        1      
+master2 0     1        1      
+mastre1 0     1        1      
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross APB
+
+
+Samples crossed: PSELX PWRITE PADDR
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 32       32        0       0.00    32      
+
+
+Automatically Generated Cross Bins for APB
+
+
+Uncovered bins
+
+PSELX PWRITE PADDR COUNT AT LEAST NUMBER 
+*     *      *     --    --       32     
+
+

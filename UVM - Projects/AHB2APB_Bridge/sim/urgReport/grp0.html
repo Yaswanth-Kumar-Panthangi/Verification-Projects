@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Group :: bridge_pkg::sb::ahb</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Group : bridge_pkg::sb::ahb</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | hierarchy | modlist | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Group : <a href="#"  onclick="showContent('bridge_pkg::sb::ahb')">bridge_pkg::sb::ahb</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td><b>SCORE</b></td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="s0 cl rt">  0.00</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home1/BPRN15/KUReddy/AHB2APB_Bridge/sim/../tb/sb.sv')">/home1/BPRN15/KUReddy/AHB2APB_Bridge/sim/../tb/sb.sv</a><br clear=all>
+<br clear=all>
+</div>
+<hr>
+<br clear=all>
+<span class=repname>Summary for Group   bridge_pkg::sb::ahb
+</span>
+<br clear=all>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td><a href="#var_tbl_bridge_pkg::sb::ahb" >Variables</a></td>
+<td class="rt">11</td>
+<td class="rt">11</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr><tr class="s0">
+<td><a href="#crs_tbl_bridge_pkg::sb::ahb" >Crosses</a></td>
+<td class="rt">48</td>
+<td class="rt">48</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class="repname" id="var_tbl_bridge_pkg::sb::ahb">Variables for Group  bridge_pkg::sb::ahb
+</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">VARIABLE</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>GOAL</td><td>WEIGHT</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>COMMENT</td></tr><tr class="s0">
+<td><a href="#inst_tag_bridge_pkg::sb::ahb.HADDR"  onclick="checkLink(this)" target="detailFrame">HADDR</a></td>
+<td class="rt">4</td>
+<td class="rt">4</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_bridge_pkg::sb::ahb.HSIZE"  onclick="checkLink(this)" target="detailFrame">HSIZE</a></td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_bridge_pkg::sb::ahb.HWRITE"  onclick="checkLink(this)" target="detailFrame">HWRITE</a></td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_bridge_pkg::sb::ahb.HTRANS"  onclick="checkLink(this)" target="detailFrame">HTRANS</a></td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class="repname" id="crs_tbl_bridge_pkg::sb::ahb">Crosses for Group  bridge_pkg::sb::ahb
+</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CROSS</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>GOAL</td><td>WEIGHT</td><td>AT LEAST</td><td>PRINT MISSING</td><td>COMMENT</td></tr><tr class="s0">
+<td><a href="#inst_tag_bridge_pkg::sb::ahb.AHP"  onclick="checkLink(this)" target="detailFrame">AHP</a></td>
+<td class="rt">48</td>
+<td class="rt">48</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div>
+<br clear=all>
+<a name="inst_tag_bridge_pkg::sb::ahb.HADDR"></a><span class="repname" id="inst_tag_bridge_pkg::sb::ahb.HADDR">Summary for Variable HADDR</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">4</td>
+<td class="rt">4</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for HADDR</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>slave4</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>slave3</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>slave2</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>slave1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_bridge_pkg::sb::ahb.HSIZE"></a><span class="repname" id="inst_tag_bridge_pkg::sb::ahb.HSIZE">Summary for Variable HSIZE</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for HSIZE</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>four_byte</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>two_byte</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>one_byte</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_bridge_pkg::sb::ahb.HWRITE"></a><span class="repname" id="inst_tag_bridge_pkg::sb::ahb.HWRITE">Summary for Variable HWRITE</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for HWRITE</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>write1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>write0</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_bridge_pkg::sb::ahb.HTRANS"></a><span class="repname" id="inst_tag_bridge_pkg::sb::ahb.HTRANS">Summary for Variable HTRANS</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for HTRANS</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>seq</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>nseq</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_bridge_pkg::sb::ahb.AHP"></a><span class="repname" id="inst_tag_bridge_pkg::sb::ahb.AHP">Summary for Cross AHP</span>
+<br clear=all>
+<br clear=all>
+Samples crossed: HADDR HSIZE HWRITE HTRANS<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>MISSING</td></tr><tr class="s0">
+<td>Automatically Generated Cross Bins</td>
+<td class="rt">48</td>
+<td class="rt">48</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">48</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Cross Bins for AHP</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td nowrap width=40 class="alfsrt">HADDR</td><td nowrap width=40 class="alfsrt">HSIZE</td><td class="alfsrt">HWRITE</td><td class="alfsrt">HTRANS</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center nowrap>--</td>
+<td align=center nowrap>--</td>
+<td class="rt">48</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul>
+    <li>
+      <a href="#inst_tag_bridge_pkg::sb::ahb.HADDR">Variable : HADDR</a>    </li>
+    <li>
+      <a href="#inst_tag_bridge_pkg::sb::ahb.HSIZE">Variable : HSIZE</a>    </li>
+    <li>
+      <a href="#inst_tag_bridge_pkg::sb::ahb.HWRITE">Variable : HWRITE</a>    </li>
+    <li>
+      <a href="#inst_tag_bridge_pkg::sb::ahb.HTRANS">Variable : HTRANS</a>    </li>
+    <li>
+      <a href="#inst_tag_bridge_pkg::sb::ahb.AHP">Cross : AHP</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

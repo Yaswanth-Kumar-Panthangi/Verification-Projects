@@ -1,0 +1,38 @@
+ALU/
+|
+|----tb/
+|    ├── tb_top.sv              ← Top-level module (connects DUT + env)
+|    │
+|    ├── if/                   
+|    │   └── if.sv              ← SystemVerilog interface(s)
+|    │
+|    ├── trans/
+|    │   └── transaction.sv     ← Sequence item (uvm_sequence_item)
+|    │
+|    ├── seqs/
+|    │   └── seq.sv             ← Sequences (uvm_sequence)
+|    │
+|    ├── pkg/
+|    │   └── pkg.sv             ← Package (imports all TB components)
+|    │
+|    ├── env/
+|    │   ├── config_object.sv   ← UVM config object
+|    │   │
+|    │   ├── input_driver.sv    ← Input driver
+|    │   ├── input_monitor.sv   ← Input monitor
+|    │   ├── input_sequencer.sv ← Input sequencer
+|    │   ├── input_agent.sv     ← Input agent (driver+monitor+seqr)
+|    │   │
+|    │   ├── output_driver.sv   ← Output driver
+|    │   ├── output_monitor.sv  ← Output monitor
+|    │   ├── output_sequencer.sv← Output sequencer
+|    │   ├── output_agent.sv    ← Output agent
+|    │   │
+|    │   ├── scoreboard.sv      ← Scoreboard
+|    │   └── env.sv             ← Top-level env (instantiates agents + scoreboard)
+|    │
+|    ├── tests/
+|        └── base_test.sv       ← Base test (uvm_test)
+|     
+|------DUT/
+        └── alu_dut.sv    

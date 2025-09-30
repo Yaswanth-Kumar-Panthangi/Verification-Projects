@@ -1,0 +1,29 @@
+<session version="1.1" release="T-2022.06-SP1" timestp="2025-07-16 16:11:06 GMT">
+  <info>
+    <attr name="datetime" value="Wed Jul 16 21:41:08 2025
+"/>
+    <attr name="command" value="urg -dir mem_cov1.vdb mem_cov2.vdb mem_cov3.vdb mem_cov4.vdb mem_cov5.vdb mem_cov6.vdb -dbname merged_dir/merged_test -format both -report urgReport"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="0%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="bridge_pkg::sb::ahb">
+      <metric name="Group" value="0%" />
+    </scope>
+    <scope type="group" name="bridge_pkg::sb::apb">
+      <metric name="Group" value="0%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

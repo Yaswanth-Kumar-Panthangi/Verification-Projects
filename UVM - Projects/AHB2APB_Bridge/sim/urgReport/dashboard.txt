@@ -1,0 +1,25 @@
+Dashboard
+
+Date: Wed Jul 16 21:41:08 2025
+
+User: KUReddy
+
+Version: T-2022.06-SP1
+Command line: urg -dir mem_cov1.vdb mem_cov2.vdb mem_cov3.vdb mem_cov4.vdb mem_cov5.vdb mem_cov6.vdb -dbname merged_dir/merged_test -format both -report urgReport
+Number of tests: 4
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+  0.00   0.00 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  WEIGHT 
+  0.00 1      
+
+
+-------------------------------------------------------------------------------
+Ignored covdb dirs: 
+mem_cov5.vdb mem_cov6.vdb 

@@ -1,0 +1,15 @@
+Tests
+
+Total Coverage Summary 
+SCORE  GROUP  
+  0.00   0.00 
+
+
+Total tests in report: 4
+-------------------------------------------------------------------------------
+Data from the following tests was used to generate this report
+mem_cov1/test 
+mem_cov2/test 
+mem_cov3/test 
+mem_cov4/test 
+
